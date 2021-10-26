@@ -1,0 +1,10 @@
+platform: nangate45
+
+design_name: swerv
+
+verilog_files:
+  - ./designs/src/$(DESIGN_NAME)/swerv_wrapper.sv2v.v
+sdc_file: ./designs/$(PLATFORM)/$(DESIGN_NAME)/constraint.sdc
+
+die_area: "0 0 1550.02 1342.6"
+core_area: "10.07 11.2 1540.14 1332.8"
